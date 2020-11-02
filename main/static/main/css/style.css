@@ -1,0 +1,86 @@
+body{
+    margin: 0px !important;
+    background-color: blanchedalmond;
+}
+#conteiner-top{
+    color: blanchedalmond;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color:blanchedalmond;
+}
+ul{
+    list-style: none;
+}
+
+nav{
+    background-color: rgb(34, 12, 12);
+}
+.verde-main{
+    background-color: rgb(34, 12, 12);
+}
+#logo{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left:10px;
+}
+
+#suscrip{
+    text-decoration: none;
+    color:blanchedalmond;
+}
+
+#cerveza{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+
+.img-small{
+    max-width: 30%;
+    height: auto;
+}
+
+.a-la-izquierda{
+    text-align: left;
+}
+
+.a-la-derecha{
+    text-align: right;
+}
+#info{
+    margin-top:50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h3{
+    font-weight: 100;
+}
+#info p{
+    font-size: 12px;
+}
+
+footer{
+    margin-top:40px;
+    padding: 30px;
+    background-color: gray;
+}
+button{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ffffff;
+    color: #000000;
+    padding:10px;
+    font-weight: bold;
+}
+
+.info{
+    color: rgb(34, 12, 12);
+}
+.info2{
+    color: blanchedalmond;
+}

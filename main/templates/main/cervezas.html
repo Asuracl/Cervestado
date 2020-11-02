@@ -1,0 +1,80 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cervezas</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="{% static 'main/css/flexboxgrid.css'%}">
+    <link rel="stylesheet" href="{% static 'main/css/bootstrap.css'%}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0-12/css/all.css">
+    <link rel="stylesheet" href="{% static 'main/css/style.css'%}">
+    <link rel="stylesheet" href="{% static 'main/css/carousel.css'%}">
+</head>
+<body>
+    
+    <nav class="navbar navbar-expand-md nav fixed-top">
+        <a class="navbar-brand" href="index.html"><img src="{% static 'main/img/LOGO.jpeg'%}" alt="logo" height="50"></a>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+              </div>
+          </div>
+          <form class="form-inline">
+            <a class="nav-item nav-link " href="cervezas.html">Cervezas</a>
+            <a class="nav-item nav-link" href="registro.html">Registrarse</a>
+          </form> 
+  </nav>
+  <br> <br> <br> <br>    
+
+
+<div class="row row-cols-1 row-cols-md-2">
+    <div class="col mb-4">
+      <div class="card">
+        <img src="{% static 'main/img/ale3.jpg'%}" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Ale</h5>
+          <p class="card-text">En la forma más sencilla de elaboración, durante la fermentación en caliente que dura unos tres o cuatro días, se alcanza una temperatura de unos 25º C. Sin embargo, muchos productores dejan fermentar la cerveza hasta dos semanas. Después, la mayoría de las cervezas de fermentación alta tienen algún tipo de maduración posterior, que puede ir desde unos pocos días de acondicionamiento en caliente entre 13 y 16º C, a una maduración en frío o incluso una segunda fermentación en la barrica o botella.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col mb-4">
+      <div class="card">
+        <img src="{% static 'main/img/cerveza-lager.jpg'%}" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Lager</h5>
+          <p class="card-text">Es la forma más común de hacer cerveza en todo el mundo, siendo el estilo pilsen el más conocido y más seguido dentro del grupo de las lager. Sin embargo, existen otros estilos dentro de la categoría lager menos conocidos, pero no menos apreciados en sus países o regiones de origen, como son el estilo Munich, Viena, dortmunder, bock y doppelbock.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col mb-4">
+      <div class="card">
+        <img src="{% static 'main/img/trigo.jpg'%}" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Trigo</h5>
+          <p class="card-text">Se conocen como cervezas blancas, por el aspecto como de neblina que tienen las que no están filtradas, que es como suelen tomarse. Su característica principal es su cáracter ácido, refrescante y espumoso, por lo que no es de extrañar que sea una cerveza muy popular en las areas donde tradicionalmente se produce, como son el sur de Alemania, Berlín y Bélgica.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col mb-4">
+      <div class="card">
+        <img src="{% static 'main/img/variedades.jpg'%}" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Otras Especialidades</h5>
+          <p class="card-text">Existe toda una gama de cervezas especiales que por sus características, su proceso de elaboración o sus ingredientes, son difíciles de clasificar en alguno de los apartados anteriores. Sin embargo, son cervezas que merecen ser conocidas y apreciadas.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+<!-- js -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+
+
+
+    
+</body>
+</html>
