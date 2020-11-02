@@ -1,0 +1,41 @@
+{% load static %}
+<!DOCTYPE html> 
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="{% static 'main/css/flexboxgrid.css'%}">
+    <link rel="stylesheet" href="{% static 'main/css/bootstrap.css'%}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0-12/css/all.css">
+    <link rel="stylesheet" href="{% static 'main/css/style.css'%}">
+    <link rel="stylesheet" href="{% static 'main/css/carousel.css'%}">
+</head>
+<body>
+    <nav class="navbar navbar-expand-md nav fixed-top">
+        <a class="navbar-brand" href="index"><img src="{% static 'main/img/LOGO.jpeg'%}" alt="logo" height="50"></a>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+              </div>
+          </div>
+          <form class="form-inline">
+            <a class="nav-item nav-link " href="cervezas.html">Cervezas</a>
+            <a class="nav-item nav-link" href="login.html">Login</a>
+            <a class="nav-item nav-link" href="registro.html">Registrarse</a>   
+            </form> 
+  </nav>
+  {% block contenido %}
+      
+  {% endblock contenido %}
+  
+
+    <!-- script -->
+    <script src="{% static 'main/js/jquery-3.4.1.js' %}"></script>
+    <script src="{% static 'main/js/jquery.validate.js' %}"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="{% static 'main/js/bootstrap.js' %}" ></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@8"></script>
+    <script src="{% static 'main/js/app.js' %}"></script>  
+</body>
+</html>

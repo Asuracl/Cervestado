@@ -1,0 +1,33 @@
+{% extends 'main/plantilla.html' %}
+{% load static %}
+{% block contenido %}
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    
+    <div class="row main center-xs">
+        <form action="index.html" method="GET" id="formulario">
+            <div class="form-row">
+                <div class="form-group col-md-12">
+                    <label for="user">Nombre de usuario</label>
+                    <input type="text" class="form-control" name="user" placeholder="">
+                </div>
+            </div>
+
+            
+            <div class="form-row">
+                <div class="form-group col-md-12">
+                    <label for="pass">Contraseña</label>
+                    <input type="password" class="form-control" name="pass" placeholder="">
+                </div>
+            </div>
+
+            <button class="btn btn-primary" type="submit">Entrar</button>
+        </form>
+    </div>
+
+{% endblock contenido %}
