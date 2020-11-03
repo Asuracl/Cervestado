@@ -23,6 +23,9 @@ $(document).ready(function(){
                 required: true,
                 email: true
             },
+            pass:{
+                required: true
+            },
             fnacimiento:{
                 required:true,
                 max:format
@@ -47,6 +50,10 @@ $(document).ready(function(){
             correoconfi:{
                     required:"Debe confirmar su correo",
                     email:"Debe ingresar un correo valido"
+            },
+
+            pass:{
+                required:"Debe ingresar una contraseña"
             },
             fnacimiento:{
                 required:"Debes ingresar tu fecha de nacimiento",
