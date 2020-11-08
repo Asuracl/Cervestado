@@ -1,11 +1,12 @@
 from django.urls import path
-from . import views
-
-app_name='main'
+#from .views import index,cervezas,registro
+from .views import index, cervezas, registro, login
 
 urlpatterns = [ 
-    path('', views.index, name='index' ),
-    path('cervezas.html/', views.cervezas, name='cervezas'),
-    path('registro.html/', views.registro, name='registro')
+    path('', index, name='index' ),
+    path('cervezas/', cervezas, name='cervezas'),
+    path('registro/', registro, name='registro'),
+    path('login/', login, name='login')
+    
 ]
 

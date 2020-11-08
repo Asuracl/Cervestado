@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
+    <title>Cervestado</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" href="{% static 'main/css/flexboxgrid.css'%}">
     <link rel="stylesheet" href="{% static 'main/css/bootstrap.css'%}">
@@ -14,15 +14,14 @@
 </head>
 <body>
     <nav class="navbar navbar-expand-md nav fixed-top">
-        <a class="navbar-brand" href="index"><img src="{% static 'main/img/LOGO.jpeg'%}" alt="logo" height="50"></a>
+        <a class="navbar-brand" href="{% url 'index' %}"><img src="{% static 'main/img/LOGO.jpeg'%}" alt="logo" height="50"></a>
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
               <div class="navbar-nav">
               </div>
           </div>
           <form class="form-inline">
-            <a class="nav-item nav-link " href="cervezas.html">Cervezas</a>
-            <a class="nav-item nav-link" href="login.html">Login</a>
-            <a class="nav-item nav-link" href="registro.html">Registrarse</a>   
+            <a class="nav-item nav-link" href="{% url 'cervezas' %}">Cervezas</a>
+            <a class="nav-item nav-link" href="{% url 'login' %}">Ingresar</a>  
             </form> 
   </nav>
   {% block contenido %}
