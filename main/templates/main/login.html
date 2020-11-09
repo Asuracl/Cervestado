@@ -12,9 +12,9 @@
     
     <div class="row main center-xs">
         <form action="index.html" method="POST" id="formulario">
-
-            {{ form.as_p }}
             {% csrf_token %}
+            {{ form.as_p }}
+            
             
             <a href="{% url 'registro' %}" class="info" > Registrarse</a>
             <button class="btn btn-primary" type="submit"> Ingresar</button>
